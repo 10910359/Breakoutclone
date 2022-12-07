@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/again2"
         android:layout_width="197dp"
         android:layout_height="61dp"
         android:layout_marginStart="108dp"
@@ -31,7 +31,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/Goback3"
         android:layout_width="198dp"
         android:layout_height="61dp"
         android:layout_marginStart="108dp"
@@ -39,5 +39,5 @@
         android:text="返回首頁"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/again2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,6 +16,12 @@ class MainActivity : AppCompatActivity() {
          btnHTP=findViewById(R.id.btnHTP)
 
 
+        btnStart.setOnClickListener {
+            Intent(this,fail::class.java).apply {
+                startActivity(this)
+            }
+        }
+
         btnHTP.setOnClickListener {
             Intent(this,Gameinstructions::class.java).apply {
                 startActivity(this)
