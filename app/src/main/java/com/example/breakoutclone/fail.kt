@@ -12,8 +12,8 @@ class fail : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fail)
 
-        Goback3=findViewById(R.id.Goback2)
-        again2=findViewById(R.id.again)
+        Goback3=findViewById(R.id.Goback3)
+        again2=findViewById(R.id.again2)
 
         Goback3.setOnClickListener {
             Intent(this,MainActivity::class.java).apply {
