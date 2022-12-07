@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/USER/Desktop/Breakoutclone/app/src/main/res/layout/activity_fail.xml" value="0.2994791666666667" />
         <entry key="..\:/Users/USER/Desktop/Breakoutclone/app/src/main/res/layout/activity_gameinstructions.xml" value="0.2994791666666667" />
         <entry key="..\:/Users/USER/Desktop/Breakoutclone/app/src/main/res/layout/activity_main.xml" value="0.2994791666666667" />
+        <entry key="..\:/Users/USER/Desktop/Breakoutclone/app/src/main/res/layout/activity_success.xml" value="0.2994791666666667" />
       </map>
     </option>
   </component>

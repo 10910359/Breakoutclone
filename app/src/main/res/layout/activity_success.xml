@@ -4,40 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mainbg"
-    tools:context=".MainActivity">
+    android:background="@drawable/win"
+    tools:context=".success">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="108dp"
-        android:layout_marginTop="148dp"
-        android:text="打磚塊"
-        android:textColor="@android:color/holo_blue_bright"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:text="好ㄟ!打光了!"
+        android:textColor="@color/design_default_color_error"
         android:textSize="60sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnStart"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="112dp"
-        android:layout_marginTop="148dp"
-        android:text="遊戲開始"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="408dp"
+        android:text="再來一次"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
-        android:id="@+id/btnHTP"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="112dp"
-        android:layout_marginTop="64dp"
-        android:text="遊戲說明"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="32dp"
+        android:text="返回首頁"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnStart" />
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
