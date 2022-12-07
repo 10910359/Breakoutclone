@@ -7,19 +7,23 @@ import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
     private lateinit var btnStart:Button
-    private lateinit var Gameinstructions:Button
+    private lateinit var btnHTP:Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         btnStart=findViewById(R.id.btnStart)
-        Gameinstructions=findViewById(R.id.Gameinstructions)
+         btnHTP=findViewById(R.id.btnHTP)
 
 
-        Gameinstructions.setOnClickListener {
+        btnHTP.setOnClickListener {
             Intent(this,Gameinstructions::class.java).apply {
                 startActivity(this)
             }
         }
+    }
+
+    override fun onStart() {
+        super.onStart()
     }
 }
